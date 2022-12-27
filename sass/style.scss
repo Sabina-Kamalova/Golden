@@ -1,0 +1,126 @@
+$font-header: 'Archivo Black', sans-serif;
+$font-logo: 'Sevillana', cursive;
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box; }
+
+body {
+    margin: 0;
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+
+.navigation {
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 36px 0 0;
+    position: relative;
+    padding: 0 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.box {
+    padding: 30px 40px 0 0;
+    initial: 0 1 auto;
+}
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://i.postimg.cc/SNYfJxxH/pexels-ekaterina-bolovtsova-6192508.jpg');
+    background-position: 0% 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.navigation-logo {
+    font-family: $font-logo;
+    color: gold;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.navigation-logo:hover {
+    color: white;
+    text-decoration: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation ul a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1, h2, h3, h5 {
+    text-align: center;    
+}
+
+.page-title {
+    font-family: $font-header;
+}
+
+.btn {
+    margin: 0 auto;
+    display: inline-block;
+    width: 250px;
+    height: 78px;
+    margin: 70px auto 0 auto;
+    padding: 22px;
+    border-color: gold;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 4px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    background-color: gold;
+}
+
+.button-wrapper{
+  display: flex;	
+  justify-content: center;	
+}
